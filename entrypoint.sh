@@ -2,4 +2,4 @@
 
 set -eu
 
-flake8 && echo "Your code looks perfect ✨✨"
+flake8 --ignore=I100,I201 && echo "Your code looks perfect ✨✨"
